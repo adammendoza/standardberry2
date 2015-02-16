@@ -1,5 +1,5 @@
 {
-  "name": "standard",
+  "name": "standardberry",
   "description": "JavaScript Standard Style",
   "version": "2.6.2",
   "author": {
@@ -8,7 +8,7 @@
     "url": "http://feross.org/"
   },
   "bin": {
-    "standard": "./bin/cmd.js"
+    "standardberry": "./bin/cmd.js"
   },
   "bugs": {
     "url": "https://github.com/feross/standard/issues"

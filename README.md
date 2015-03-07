@@ -60,6 +60,16 @@ To get a better idea, take a look at
 [a sample file](https://github.com/feross/bittorrent-dht/blob/master/client.js) written
 in JavaScript Standard Style.
 
+## Badge
+
+Use this in one of your projects? Include this badge in your readme to let people know that your code is using the standard style.
+
+[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
+
+```
+[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
+```
+
 ## Usage
 
 The easiest way to use JavaScript Standard Style to check your code is to install it
@@ -86,6 +96,7 @@ First, install `standard`. Then, install the appropriate plugin for your editor:
 
 - **[Vim](https://github.com/scrooloose/syntastic)** - Just install [Syntastic](https://github.com/scrooloose/syntastic).
 - **[Sublime Text](https://github.com/Flet/Sublimelinter-contrib-standard)** - Install (1) [Package Control](https://packagecontrol.io/), (2) [SublimeLinter](http://www.sublimelinter.com/en/latest/), and (3) [SublimeLinter-contrib-standard](https://github.com/Flet/Sublimelinter-contrib-standard).
+- **[Atom](https://atom.io)** - Install (1) [Linter](https://github.com/AtomLinter/Linter) and (2) [linter-js-standard](https://github.com/ricardofbarros/linter-js-standard).
 
 ### What you might do if you're clever
 

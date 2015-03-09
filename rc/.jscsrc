@@ -1,8 +1,8 @@
 {
   "disallowMultipleVarDecl": "exceptUndefined",
-  "disallowOperatorBeforeLineBreak": ["."],
+  "disallowOperatorBeforeLineBreak": [".", "+", "-", "/", "*"],
   "esnext": true,
-  "requireOperatorBeforeLineBreak": ["=", "+", "-", "/", "*", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+  "requireOperatorBeforeLineBreak": ["=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
   "requireSpacesInForStatement": true,
   "validateLineBreaks": "LF"
 }

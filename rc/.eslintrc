@@ -1,37 +1,9 @@
 {
     "env": {
         "browser": true,
-        "node": true
-    },
-
-    "globals": {
-        "crypto": true,
-        "Buffer": true,
-        "escape": false,
-        "unescape": false
-    },
-
-    "ecmaFeatures": {
-        "arrowFunctions": true,
-        "binaryLiterals": true,
-        "blockBindings": true,
-        "defaultParams": true,
-        "destructuring": true,
-        "forOf": true,
-        "generators": true,
-        "objectLiteralComputedProperties": true,
-        "objectLiteralDuplicateProperties": false,
-        "objectLiteralShorthandMethods": true,
-        "objectLiteralShorthandProperties": true,
-        "octalLiterals": false,
-        "regexUFlag": true,
-        "regexYFlag": true,
-        "restParams": true,
-        "spread": true,
-        "superInFunctions": true,
-        "templateStrings": true,
-        "unicodeCodePointEscapes": true,
-        "globalReturn": true
+        "es6": true,
+        "node": true,
+        "mocha": true
     },
 
     "rules": {
@@ -69,7 +41,6 @@
         "no-bitwise": 0,
         "no-caller": 2,
         "no-catch-shadow": 0,
-        "no-comma-dangle": 0,
         "no-cond-assign": 2,
         "no-console": 0,
         "no-constant-condition": 2,
@@ -136,7 +107,6 @@
         "no-sequences": 2,
         "no-shadow": 0,
         "no-shadow-restricted-names": 2,
-        "no-space-before-semi": 0,
         "no-spaced-func": 2,
         "no-sparse-arrays": 2,
         "no-sync": 0,
@@ -163,6 +133,7 @@
         "quotes": [2, "single", "avoid-escape"],
         "radix": 0,
         "semi": [2, "never"],
+        "semi-spacing": [2, { "before": false, "after": true }],
         "sort-vars": 0,
         "space-before-function-parentheses": [2, {"anonymous": "always", "named": "never"}],
         "space-after-keywords": [2, "always"],
